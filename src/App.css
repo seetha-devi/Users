@@ -1,0 +1,72 @@
+.App {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+
+}
+
+.admin-page{
+    width: 1000px;
+    margin: 0px auto;
+    padding: 20px;
+}
+.search-icon{
+   width: 97%;
+   max-width: 100%;
+   padding: 10px;
+}
+
+table{
+  width: 99%;
+  max-width: 100%;
+  margin-top: 20px;
+}
+thead th{
+  padding: 10px;
+}
+
+table,tr,td,th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+tbody button{
+  width: 30%;
+  margin: 0px 5px;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 2px;
+}
+.edit{
+  background-color: rgb(66, 66, 206);
+  color: #fff;
+}
+.delete{
+  background-color: red;
+  color:#fff ;
+}
+.save{
+  background-color: green;
+  color: #fff;
+}
+.pagination{
+  margin:20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pagination-pages{
+  padding: 0px 10px;
+}
+.pagination .delete{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.pagination-pages button{
+  margin: 0px 5px;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #d9f1f1e0;
+}
